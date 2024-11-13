@@ -26,15 +26,15 @@ jobs:
           hostname
           pwd
           ls -l
+          find .
 
-    steps:
     - name: Clonando el repositorio
       uses: actions/checkout@v4
 
-    steps:
       - name: "Paso 1"
         run: |
           echo "Hola mundo"
           hostname
           pwd
           ls -l
+          find .
