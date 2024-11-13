@@ -26,7 +26,6 @@ jobs:
           hostname
           pwd
           ls -l
-          find .
 
     steps:
     - name: Clonando el repositorio
@@ -39,4 +38,3 @@ jobs:
           hostname
           pwd
           ls -l
-          find .
