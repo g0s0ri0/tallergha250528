@@ -33,7 +33,7 @@ jobs:
 
       - name: "Paso 1"
         run: |
-          echo "Hola mundo"
+          echo "Hola mundo x"
           hostname
           pwd
           ls -l
